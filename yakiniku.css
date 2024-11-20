@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+
+p{
+	font-family:YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "serif";
+}
+
+body {
+    background-color: #ff7063;
+}
+
+header{
+	width: 810px;
+	height: 690px;
+	background-color: #ffd5d2;
+}
+
+.accessBox{
+	width: 810px;
+	height: 260px;
+	
+	/* display: inline-block;   ★1:横並びに配置する*/
+	/* list-style-type: none;   ★2:リストの先頭記号を消す*/
+	background-color: #ffffff;
+}
+
+.access li{
+	
+	display: inline-block;  /* ★1:横並びに配置する*/
+	/* list-style-type: none;   ★2:リストの先頭記号を消す*/
+	width: 721px;
+	position:relative;
+	
+}
+
+.wrap{
+ 		display:flex;
+ 		flex-wrap:wrap;
+ }
+
+.access ul{
+	/*display:none;*/
+	margin: 0px;         
+	padding: 0px;        
+		/* ★1:標準では非表示にする*/
+ 		/* ★2:サブメニュー外側の余白(ゼロ) */
+ 		/* ★3:サブメニュー内側の余白(ゼロ) */
+	/* position:absolute; */
+	font-family:YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "serif";
+}
+
+.access li:hover ul{
+	background-color: white;
+	/* display:block; */
+}
+ 
+.menuBox{
+	width: 810px;
+	/* height: 4000px; */
+	background-color: #ffd5d2;
+}
+
+article{
+	width: 750px;
+	height: 580px;
+	background-color: #ffd5d2;
+}
+
+.nikuBox{
+	width: 750px;
+	height: 50px;
+	background-color: #ffd5d2;
+}
+
+.sec3{
+	
+	margin-inline-start: 20px;
+	display: inline-block;  /* ★1:横並びに配置する*/
+	align-items: flex-start;
+	width: 200px;
+	height: 490px;
+	background-color: #ffd5d2;
+	border: solid 3px #ff7063;
+	padding: 10px;
+}
+
+.sec2{
+	margin-inline-start: 30px;
+	display: inline-block;  /* ★1:横並びに配置する*/
+	width: 310px;
+	height: 490px;
+	background-color: #ffd5d2;
+	border: solid 3px #ff7063;
+	padding: 10px;
+}
